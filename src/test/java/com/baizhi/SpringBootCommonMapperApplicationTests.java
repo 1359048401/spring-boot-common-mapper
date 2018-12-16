@@ -23,6 +23,7 @@ public class SpringBootCommonMapperApplicationTests {
 
     @Test
     public void test(){
+        System.out.println("This is github insert sentence");
         List<City> cities = cityMapper.selectAll();
         for (City city : cities) {
             System.out.println(city);
